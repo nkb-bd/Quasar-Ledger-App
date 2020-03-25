@@ -1,7 +1,7 @@
 {
   "name": "Simple Ledger App",
   "version": "0.0.1",
-  "description": "A very simple in and out record tracking app built with quasar",
+  "description": "A very simple realtime in and out record tracking app built with quasar",
   "productName": "quasar-ledger-app",
   "cordovaId": "org.quasar.todo.nkb.com",
   "capacitorId": "",
