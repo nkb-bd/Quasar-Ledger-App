@@ -11,9 +11,11 @@
         <q-card class="my-card add-new   text-center col-6"  v-ripple  @click="showAddBusinessModal = true">
           <q-card-section>
             <div class="text-h6"> New Item </div>
+            <small>Click on item to add record</small>
           </q-card-section class="text-center">
           <div class=" center" >
             <q-btn flat round size="18px" color="" icon="add_circle_outline" class="inline " />
+
 
 
           </div>
