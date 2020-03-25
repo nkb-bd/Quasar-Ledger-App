@@ -102,11 +102,13 @@ const actions ={
       this.$router.replace('/auth')
 
       firebaseAuth.onAuthStateChanged(user => {
+
+        Loading.show({
+          spinner:QSpinnerPuff,
+        })
             if (user) {
 
-              Loading.show({
-                spinner:QSpinnerPuff
-              })
+
               // User is logged in.
               let userId = firebaseAuth.currentUser.uid
               firebaseDb.ref('users/' + userId).once('value', snapshot => {
@@ -116,6 +118,10 @@ const actions ={
                   email: userDetails.email,
                   userId: userId
                 })
+
+                Loading.hide()
+
+
               })
               dispatch('firebaseUpdateUser', {
                 userId: userId,
@@ -123,16 +129,13 @@ const actions ={
                   online: true
                 }
               })
+
               dispatch('firebaseGetBusiness',userId)
               dispatch('firebaseGetUsers')
-
               dispatch('clearErrorMessage')
-              Loading.hide()
-
-
 
             }else{
-          // User is signed out.
+              // User is signed out.
 
               Loading.show({
                 spinner:QSpinnerPuff
@@ -149,6 +152,7 @@ const actions ={
 
             }
       });
+
     },
 
     firebaseUpdateUser({}, payload){
@@ -229,7 +233,9 @@ const actions ={
 
     firebaseGetBusiness({ commit ,state},userId){
       Loading.show({
-        spinner:QSpinnerPuff
+        spinner:QSpinnerPuff,
+        message: '<b>Loading, please make sure you are connected to internet </b><br/><span class="text-primary">Thanks for checking this out...</span>'
+
       })
 
       firebaseDb.ref('business_list/' +  userId).on('child_added', snapshot =>{
@@ -242,7 +248,6 @@ const actions ={
 
 
       })
-      Loading.hide()
 
 
 
