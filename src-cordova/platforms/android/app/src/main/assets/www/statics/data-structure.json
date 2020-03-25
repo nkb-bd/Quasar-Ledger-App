@@ -1,0 +1,23 @@
+{
+  "users": {
+    "USERID1": {
+      "name" : "admin",
+      "email" : "admin@email.com"
+    }
+  },
+  "busness_list" : {
+    "BUSINESSID1" : {
+      "name": "Busines One",
+      "mobile": "017175",
+      "owner": "Owner"
+    }
+  },
+  "records": {
+    "BUSINESSID1": {
+        "in": 10,
+        "out": 5,
+        "date": "02/02/2020",
+        "user": "USERID1"
+    }
+  }
+}

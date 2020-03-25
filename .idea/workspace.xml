@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4aa1d98-8056-4a18-8fdb-b73d88f3920d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ProjectId" id="1WRQEonYHgZNskahYwVK2ny1Qzs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP&#10;CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="quasar new page BusinessList" />
+      <command value="quasar new component Record" />
+      <command value="quasar new component Business" />
+      <command value="quasar new page History" />
+      <command value="quasar new store Store" />
+      <command value="quasar new store LedgerAppStore" />
+      <command value="quasar clear" />
+      <command value="quasar dev" />
+      <command value="npm install firebase" />
+      <command value="quasar new page Authentication" />
+      <command value="quasar new page Users" />
+      <command value="quasar new page Chat" />
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4aa1d98-8056-4a18-8fdb-b73d88f3920d" name="Default Changelist" comment="" />
+      <created>1579109818756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579109818756</updated>
+      <workItem from="1579109824302" duration="353000" />
+      <workItem from="1579162397836" duration="74000" />
+      <workItem from="1579162496549" duration="9613000" />
+      <workItem from="1579250580822" duration="1844000" />
+      <workItem from="1583573319167" duration="10281000" />
+      <workItem from="1583659758800" duration="20238000" />
+      <workItem from="1583727249654" duration="2514000" />
+      <workItem from="1583936939630" duration="2695000" />
+      <workItem from="1583945726665" duration="4438000" />
+      <workItem from="1583981873995" duration="739000" />
+      <workItem from="1584375307347" duration="786000" />
+      <workItem from="1584423163453" duration="1358000" />
+      <workItem from="1584515372942" duration="10439000" />
+      <workItem from="1584595799837" duration="11325000" />
+      <workItem from="1584734604601" duration="699000" />
+      <workItem from="1584765348125" duration="1307000" />
+      <workItem from="1584864654793" duration="28010000" />
+      <workItem from="1584955409114" duration="26148000" />
+      <workItem from="1585036597834" duration="36407000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584615337798">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="349" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1584615337798" />
+    <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579162467486">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1579162467485" />
+    <state width="1398" height="188" key="GridCell.Tab.0.bottom" timestamp="1584646266542">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584646266542" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1579207609003" />
+    <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584383768531" />
+    <state width="1398" height="188" key="GridCell.Tab.0.center" timestamp="1584646266541">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="188" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584646266541" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1579207609002" />
+    <state width="1398" height="188" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1584383768530" />
+    <state width="1398" height="188" key="GridCell.Tab.0.left" timestamp="1584646266540">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="188" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584646266540" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1579207609002" />
+    <state width="1398" height="188" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1584383768530" />
+    <state width="1398" height="188" key="GridCell.Tab.0.right" timestamp="1584646266541">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="188" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584646266541" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1579207609003" />
+    <state width="1398" height="188" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1584383768531" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1583606667552">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583606667552" />
+    <state x="378" y="207" width="858" height="582" key="find.popup" timestamp="1585131008105">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="378" y="207" width="858" height="582" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1585131008105" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1584634702963">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1584634702963" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585131010424">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585131010423" />
+    <state x="450" y="309" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579188652975">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="309" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1440.900@0.0.1440.900" timestamp="1579188652975" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Business.vue</url>
+          <line>39</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/Authentication.vue</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/Authentication.vue</url>
+          <line>53</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

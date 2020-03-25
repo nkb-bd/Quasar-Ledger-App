@@ -1,0 +1,45 @@
+
+.header-image{
+   height: 100%;
+   z-index: -1;
+   opacity: .5;
+   /*filter: grayscale(100%);*/
+}
+.slide-enter-active,
+ .slide-leave-active{
+   transition: opacity 0.5s, transform 0.5s;
+}
+.slide-enter, .slide-leave-to{
+   opacity: 0;
+   transform: translateX(-30%);
+}
+.my-fab-btn .q-btn--fab .q-btn__wrapper{
+   min-height: unset;
+   margin: 0px;
+   padding:8px;
+}
+.my-fab-btn .q-toolbar__title{
+   font-size: 17px;
+}
+.q-item.q-router-link--active, .q-item--active {
+   background-color: #477ed2;
+   color:white;
+   border-radius:5px ;
+}
+.my-fab-btn. a{
+   max-height: 40px;
+   min-height: 44px;
+   border-radius: 5px;
+}
+.my-fab-btn .q-item {
+   min-height: 12px;
+   max-height: 80px;
+   height: 40px;
+}
+.my-item-menu{
+   max-width: 20px;
+}
+
+
+
+/*# sourceMappingURL=2.28ce56df.css.map*/
