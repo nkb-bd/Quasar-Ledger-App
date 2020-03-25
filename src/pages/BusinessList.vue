@@ -42,7 +42,7 @@
 
 
               <div class="col text-center">
-                <q-btn flat round size="7px" icon="phone" class="inline " />
+                <q-btn v-if="business.mobile!=''" flat round size="7px" icon="phone" class="inline " />
 
                 {{business.mobile}}
               </div>
