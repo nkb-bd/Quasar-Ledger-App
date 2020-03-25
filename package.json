@@ -1,12 +1,12 @@
 {
-  "name": "quasar-todo",
+  "name": "Simple Ledger App",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "to-do-test",
+  "description": "A very simple in and out record tracking app built with quasar",
+  "productName": "quasar-ledger-app",
   "cordovaId": "org.quasar.todo.nkb.com",
   "capacitorId": "",
   "author": "lukman.nakib@gmail.com",
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
   },
