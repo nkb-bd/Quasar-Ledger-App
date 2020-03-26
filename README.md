@@ -1,3 +1,8 @@
 # Quasar Ledger App
- Simple business in and out record
- Demo https://simple-ledger-app.netlify.com/
+ Simple realtime business in and out record 
+ ![vue app firebase lukman nakib](https://i.ibb.co/qnBmVQg/91011420-314010209576235-9439723936284672-n.jpg)
+
+Demo https://simple-ledger-app.netlify.com/
+ 
+
+ 
