@@ -97,7 +97,7 @@
                 class="header-image absolute-top"
             />
             <div class="absolute-bottom-right z-max">
-                {{ loggedInUser }} @created by lukman.nakib@gmail.com
+                {{ loggedInUser }}
             </div>
         </q-header>
 

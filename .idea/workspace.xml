@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4aa1d98-8056-4a18-8fdb-b73d88f3920d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/MyLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MyLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/BusinessList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BusinessList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <workItem from="1584864654793" duration="28010000" />
       <workItem from="1584955409114" duration="26148000" />
       <workItem from="1585036597834" duration="40673000" />
-      <workItem from="1585238629663" duration="1813000" />
+      <workItem from="1585238629663" duration="2489000" />
     </task>
     <servers />
   </component>
@@ -173,10 +171,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1585240966582" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585240760659">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585241766711">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585240760659" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585241766711" />
     <state x="450" y="309" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579188652975">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
