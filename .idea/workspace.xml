@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4aa1d98-8056-4a18-8fdb-b73d88f3920d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/MyLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MyLayout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/BusinessList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BusinessList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +34,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/pages/BusinessList.vue" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1WRQEonYHgZNskahYwVK2ny1Qzs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,12 +46,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP&#10;CSS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -63,11 +69,11 @@
       <command value="quasar new store Store" />
       <command value="quasar new store LedgerAppStore" />
       <command value="quasar clear" />
-      <command value="quasar dev" />
       <command value="npm install firebase" />
       <command value="quasar new page Authentication" />
       <command value="quasar new page Users" />
       <command value="quasar new page Chat" />
+      <command value="quasar dev" />
     </option>
   </component>
   <component name="ServiceViewManager">
@@ -110,7 +116,8 @@
       <workItem from="1584765348125" duration="1307000" />
       <workItem from="1584864654793" duration="28010000" />
       <workItem from="1584955409114" duration="26148000" />
-      <workItem from="1585036597834" duration="40506000" />
+      <workItem from="1585036597834" duration="40673000" />
+      <workItem from="1585238629663" duration="1813000" />
     </task>
     <servers />
   </component>
@@ -122,50 +129,54 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="349" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1584615337798" />
+    <state x="397" y="51" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1585239041611">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="51" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1585239041611" />
     <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579162467486">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1579162467485" />
-    <state width="1398" height="188" key="GridCell.Tab.0.bottom" timestamp="1584646266542">
+    <state width="1398" height="188" key="GridCell.Tab.0.bottom" timestamp="1585240821536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584646266542" />
+    <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585240821536" />
     <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1579207609003" />
     <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584383768531" />
-    <state width="1398" height="188" key="GridCell.Tab.0.center" timestamp="1584646266541">
+    <state width="1398" height="188" key="GridCell.Tab.0.center" timestamp="1585240821535">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="188" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584646266541" />
+    <state width="1398" height="188" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585240821535" />
     <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1579207609002" />
     <state width="1398" height="188" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1584383768530" />
-    <state width="1398" height="188" key="GridCell.Tab.0.left" timestamp="1584646266540">
+    <state width="1398" height="188" key="GridCell.Tab.0.left" timestamp="1585240821535">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="188" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584646266540" />
+    <state width="1398" height="188" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585240821535" />
     <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1579207609002" />
     <state width="1398" height="188" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1584383768530" />
-    <state width="1398" height="188" key="GridCell.Tab.0.right" timestamp="1584646266541">
+    <state width="1398" height="188" key="GridCell.Tab.0.right" timestamp="1585240821536">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="188" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584646266541" />
+    <state width="1398" height="188" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585240821536" />
     <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1579207609003" />
     <state width="1398" height="188" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1584383768531" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1583606667552">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1585240674847">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583606667552" />
-    <state x="378" y="207" width="858" height="582" key="find.popup" timestamp="1585131008105">
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585240674847" />
+    <state x="378" y="207" width="858" height="582" key="find.popup" timestamp="1585240758277">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="378" y="207" width="858" height="582" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1585131008105" />
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1584634702963">
+    <state x="378" y="207" width="858" height="582" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1585240758277" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1585240966582">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1584634702963" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585144876497">
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1585240966582" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585240760659">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585144876497" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585240760659" />
     <state x="450" y="309" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1579188652975">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
