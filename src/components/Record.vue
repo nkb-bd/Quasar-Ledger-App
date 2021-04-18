@@ -21,8 +21,8 @@
           </q-card-section>
 
           <q-card-actions align="around">
-            <div flat>Total In  {{total_in}}</div>
-            <div flat>Total Out {{total_out}}</div>
+            <div flat>Total Income  {{total_in}}</div>
+            <div flat>Total Expense {{total_out}}</div>
           </q-card-actions>
         </div>
           <div class="col-6 no-padding">
@@ -30,7 +30,7 @@
               v-model="formData.in"
               debounce="500"
               filled
-              label="In"
+              label="Income"
               type="number"
               min="0"
               hint=""
@@ -49,7 +49,7 @@
               debounce="500"
               ref="out"
               filled
-              label="Out"
+              label="Expense"
               type="number"
               min="0"
               hint=""

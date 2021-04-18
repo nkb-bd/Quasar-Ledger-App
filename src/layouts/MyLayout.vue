@@ -64,14 +64,13 @@
                 >
                     <q-item exact to="/" clickable v-ripple>
                         <q-item-section class="q-pa-sm q-ml-none">
-                            <q-icon name="list" />
-                            Dashbaord
+
+                            Home
                         </q-item-section>
                     </q-item>
 
                     <q-item exact to="/history" clickable v-ripple>
                         <q-item-section class="q-pa-sm">
-                            <q-icon name="history" />
 
                             History
                         </q-item-section>
@@ -79,7 +78,6 @@
 
                     <q-item exact to="/users" clickable v-ripple>
                         <q-item-section class="q-pa-sm">
-                            <q-icon name="supervised_user_circle" />
 
                             Users
                         </q-item-section>
@@ -109,7 +107,11 @@
             overlay
         >
             <q-scroll-area
-                style="height: calc(100% - 185px); margin-top: 185px; border-right: 1px solid #ddd"
+                style="
+                    height: calc(100% - 185px);
+                    margin-top: 185px;
+                    border-right: 1px solid #ddd;
+                "
             >
             </q-scroll-area>
 
@@ -173,12 +175,12 @@ export default {
         return {
             loading: true,
             fab1: false,
-            leftDrawerOpen: false
+            leftDrawerOpen: false,
         };
     },
     methods: {
         ...mapActions("LedgerStore", ["logoutUser"]),
-        showNotification(text, type) {}
+        showNotification(text, type) {},
     },
     computed: {
         ...mapState("LedgerStore", ["userDetails", "loggedInUser"]),
@@ -191,12 +193,11 @@ export default {
             if (currentPath == "/") return "Ledger App ";
             if (currentPath == "/users") return "User List ";
             if (currentPath == "/history") return "Record History ";
-            if (currentPath.includes("/chat"))
-            {
-              return this.otherUserDetails.name;
+            if (currentPath.includes("/chat")) {
+                return this.otherUserDetails.name;
             }
             if (currentPath == "/auth") return "Login ";
-        }
+        },
     },
     mounted() {
         this.leftDrawerOpen = false;
@@ -209,7 +210,7 @@ export default {
                 } else {
                     Notify.create({
                         type: "warning",
-                        message: "Login first"
+                        message: "Login first",
                     });
                     // next('/auth')
                 }
@@ -219,7 +220,7 @@ export default {
         });
 
         this.loading = false;
-    }
+    },
 };
 </script>
 <style>
@@ -272,7 +273,6 @@ export default {
     background: #2738407d;
     border-radius: 5px;
     margin-right: 5px;
-    padding-left: 0px;
 }
 
 .my-item-menu {

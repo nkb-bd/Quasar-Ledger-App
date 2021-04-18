@@ -2,79 +2,80 @@
     <q-slide-transition transition-show="slide-in " appear>
         <q-page class="q-pa-md">
             <!-- business list -->
-            <div class="row">
-                <!--      add business-->
-                <div class="col-6 q-pa-sm">
-                    <q-card
-                        class="my-card add-new   text-center col-6"
-                        v-ripple
-                        @click="showAddBusinessModal = true"
-                    >
-                        <q-card-section>
-                            <div class="text-h6">New Item</div>
-                            <small>Click on item to add record</small>
-                            <div class=" center">
-                                <q-btn
-                                    flat
-                                    round
-                                    color=""
-                                    icon="add_circle_outline"
-                                    class="inline "
-                                />
-                            </div>
-                        </q-card-section>
+          <div class="row justify-center  q-mb-md">
 
-                        <q-card-section>
-                            &nbsp
-                        </q-card-section>
+            <div class="row text-center  q-gutter-x-md ">
 
-                        <q-separator dark />
+              <q-input
+                outlined
+                type="text"
+                placeholder="Search Business"
+                v-model="search"
+                @change="businessList"
+              >
+                <template v-slot:append>
+                  <q-icon  v-if="search==''" name="search" />
+                  <q-btn   v-if="search!=''" @click="search=''" round icon="close" dense flat  />
+                </template>
 
-                        <div class="q-pa-sm "></div>
-                    </q-card>
-                </div>
+              </q-input>
+
+              <q-btn
+                v-ripple
+                @click="showAddBusinessModal = true"
+                color="secondary"
+                icon-right="plus" class="text-center" icon="add_circle_outline"  unelevated label="Add Business" />
+            </div>
+
+
+          </div>
+
+            <div class="row justify-center q-gutter-x-md q-col-gutter-xl">
+
                 <!--      card start-->
 
                 <div
-                    class="col-6 q-pa-sm"
+                    class="col-6 col-md-4 col-sm-12"
                     v-for="(business, key) in businessList"
                     :key="business.businessId"
                 >
-                    <q-card
-                        class="my-card bg-primary text-center text-white "
-                        v-ripple
-                        @click="addRecord(key)"
-                    >
-                        <q-card-section>
-                            <div class="text-h6">{{ business.name }}</div>
-                        </q-card-section>
+                    <q-card class="my-card q-gutter-x-md" flat bordered >
+                        <q-card-section horizontal>
+                            <q-card-section class="q-pt-xs">
+                                <div class="text-overline">Business :  {{ business.name }}  </div>
+                                <div class="text-h5 q-mt-sm q-mb-xs">
 
-                        <q-card-section>
-                            <div class="row">
-                                <div class="col text-center">
-                                    <q-btn
-                                        v-if="business.mobile != ''"
-                                        flat
-                                        round
-                                        size="7px"
-                                        icon="phone"
-                                        class="inline "
-                                    />
-
-                                    {{ business.mobile }}
+                                  {{ business.owner }}
                                 </div>
-                            </div>
+                                <div class="text-caption text-grey">
+
+                                </div>
+                            </q-card-section>
                         </q-card-section>
 
-                        <q-separator dark />
+                        <q-separator inset />
 
-                        <div class="q-pa-sm ">
-                            <div class=" center">
-                                <i class=" fa fa-xs fa-plus-circle "></i>
-                            </div>
-                        </div>
+                        <q-card-actions>
+
+                          <q-btn unelevated outline color="primary"  :to="/business/+key"  >
+                            View
+                          </q-btn>
+                            <q-btn
+                                @click="addRecord(key)"
+                                unelevated outline
+                                icon="add"
+                                color="accent"
+                            >
+                                Add Record
+                            </q-btn>
+                            <q-btn v-if="business.mobile != ''"  icon="phone" unelevated outline >
+                            {{ business.mobile }}
+                            </q-btn>
+
+                        </q-card-actions>
                     </q-card>
                 </div>
+
                 <!--      card end-->
 
                 <q-dialog v-model="showRecordModal" persistent>
@@ -108,13 +109,14 @@ export default {
             layout: false,
             tasks: [],
             showRecordModal: false,
-            showAddBusinessModal: false
+            showAddBusinessModal: false,
+            search:''
         };
     },
     methods: {
         ...mapActions("LedgerStore", [
             "firebaseGetRecordList",
-            "firebaseStopGettingRecordList"
+            "firebaseStopGettingRecordList",
         ]),
 
         closeModal() {
@@ -128,20 +130,33 @@ export default {
             this.showRecordModal = true;
             this.businessId = id;
             this.firebaseGetRecordList({
-                businessId: id
+                businessId: id,
             });
-        }
+        },
     },
     computed: {
         businessList() {
-            return this.$store.getters["LedgerStore/businessListGetter"];
-        }
+          let list = this.$store.getters["LedgerStore/businessListGetter"];
+          let result = {};
+          if(this.search != ''){
+            for (const key in list ) {
+              if( list[key].owner.toLowerCase().includes(this.search.toLowerCase())){
+                result[key] = list[key] ;
+              }
+            }
+            return result;
+          }
+          return list;
+
+
+        },
     },
+
     components: {
         Record: () => import("../components/Record"),
-        Business: () => import("../components/Business")
+        Business: () => import("../components/Business"),
     },
-    mounted() {}
+    mounted() {},
 };
 </script>
 <style>

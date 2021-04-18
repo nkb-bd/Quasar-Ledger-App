@@ -61,7 +61,6 @@
         </q-item>
       </q-list>
 
-    </q-table>
 
 
      Total : {{getRowsNumberCount}}
