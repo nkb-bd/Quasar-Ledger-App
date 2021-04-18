@@ -8,9 +8,10 @@
   "author": "lukman.nakib@gmail.com",
   "private": false,
   "scripts": {
-      "build": "quasar build",
-    "test": "echo \"No test specified\" && exit 0"
-  },
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "build:pwa": "quasar build -m pwa"
+  }
   "dependencies": {
     "@quasar/extras": "^1.6.0",
     "firebase": "^7.12.0",
